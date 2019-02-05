@@ -10,16 +10,16 @@ from src.follow_protocol import follow_protocol
 from src.unfollow_protocol import unfollow_protocol
 
 bot = InstaBot(
-    login="plantasdatiarobe",
-    password="roberline321",
+    login="contabius",
+    password="contabius8477",
     like_per_day=1000,
     comments_per_day=0,
-    tag_list=["plantas", "plantasemcasa", "plantaspermanentes",
-        "plantaseed", "plantasdecasa", "plantasornamentais",
-        "suculentas", "suculenta", "flores", "flor", "succulent"],
+    tag_list=["impostos", "empreender", "contabilidade", "notafiscal",
+              "impostoderenda", "empreendedorismo", "motivacao",
+              ]
     tag_blacklist=[],
     user_blacklist={},
-    max_like_for_one_tag=100,
+    max_like_for_one_tag=142,
     follow_per_day=300,
     follow_time=1 * 60 * 60,
     unfollow_per_day=300,
